@@ -1,0 +1,89 @@
+body {
+ background-image: url("bg1.jpg");
+font-family: 'Roboto';
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.login_box{
+  width:307px;
+  height: 755px;
+ background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  top: 50%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+h1{
+margin: 0;
+padding: 0 0 20px;
+font-size: 40px;
+letter-spacing: 5px;
+}
+.login_box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login_box input{
+  width: 250px;
+  margin-bottom: 20px;
+}
+.login_box input[type="text"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login_box input[type="submit"]
+{
+  border:none;
+  outline: none;
+  height: 40px;
+  width: 150px;
+  background-color: #87CEFA;
+  color: #fff;
+  border-radius: 20px;
+}
+.login_box input[type="submit"]:hover
+{
+cursor: pointer;
+background: #D3D3D3;
+color:#000;
+}
+.login_box a{
+  text-decoration: none;
+  font-size:18px;
+  line-height: 20px;
+  color:darkgrey;
+  margin-left: 20px;
+}
+.login_box a:hover
+{
+color: blue;
+}
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+input[type="checkbox"] {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+
+}

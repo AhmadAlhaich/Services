@@ -1,0 +1,33 @@
+td{
+ border:none;
+ border-collapse: separate;
+ background-color: #f2f2f2;
+ padding-right:100px;
+ padding-bottom:15px;
+}
+th{
+ border:none;
+ border-collapse: separate;
+ background-color:red ;
+ padding-right:100px;
+ padding-bottom:15px;
+}
+.aw{
+ text-align: center;
+ color:white;
+ background:black;
+  position:fixed;
+left:0px;
+width:150px;
+  height:700px;
+  top:0px;
+  background-repeat: no-repeat;
+     background-size: cover  ;
+
+
+}
+.c1{
+  height: 200px;
+margin-left: 180px;
+
+}

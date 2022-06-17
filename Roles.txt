@@ -1,0 +1,23 @@
+***ROLES***
+
+1. Mohammad Itani:
+-HTML,PHP, MySQL,Java.
+-Connected multiple pages to database (Sign up, Sign in, 
+plumbing).
+-made sign up, sign in forums.
+
+2. Ahmad Al-Amin:
+-HTML,CSS,Java.
+-Designed main page containing categories 
+(Cleaning/plumbing/repair/IT)
+-fixed CSS design of categories pages and sign up/in pages.
+
+3. Wissam Merhi:
+-HTML,CSS,Java.
+-Designed 2 categories pages (cleaning, Plumbing).
+-designed forums for each company within the 2 categories.
+
+4.Ahmad Al-Haich:
+-HTML,CSS,Java.
+-Designed 2 categories pages (Repair, IT).
+-Designed pages for each company.

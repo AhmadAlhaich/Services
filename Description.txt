@@ -1,0 +1,31 @@
+***OBJECTIVES***
+The main purpose of the project is to connect customers 
+to service providers. This system allows both customers 
+and service providers to easily connect and set up arrangements.
+***WEB PAGES***
+1. Main page "connect2":
+   -The main page contains links to "sign up", "sign in", 
+   "contact us", "About us", and "privacy" pages.
+
+   -When the user clicks on his desired category, the page
+    will automatically scroll to his category of choice.
+  
+2. Categories pages:
+    
+   -Cleaning services page allows the user to browse and contact
+    several cleaning companies, send them a message, or set up an
+    arrangment by filling the related forum after clicking on the 
+    company.
+
+   -Plumbing services page allows the user to browse and contact
+    several plumbing companies, send them a message, or set up an
+    arrangment by filling the related forum after clicking on the 
+    company.
+
+   -Repair services page allows the user to browse and contact
+    several repair companies, send them a message, or set up an
+    arrangment by calling or emailing the company.
+    
+   -IT services page allows the user to browse and contact
+    several IT companies, send them a message, or set up an
+    arrangment by calling or emailing the company.

@@ -1,0 +1,117 @@
+
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+    function ShowMap() {
+      document.getElementById('map').style.visibility="visible";
+    }
+    function Close()
+    {
+        document.getElementById('corona').style.opacity="0";
+    }
+    </script>
+    <style media="screen">
+      .covid{
+        position: fixed;
+        top: 40px;
+        left: 40%;
+        z-index: 1;
+        height:85px;
+        width: 30%;
+        background-color: grey;
+      }
+      .image2{
+        position: absolute;
+        background-color: #DCDCDC;
+        width: 100%;
+        top: 10px;
+        left: 0px;
+      }
+      .information{
+        position: absolute;
+        top: 70px;
+        left: 15%;
+      }
+      .form{
+        position: absolute;
+        top: 250px;
+        height: 50em;
+      }
+      #map{
+        position: absolute;
+        width: 330px;
+        height: 330px;
+        left: 250%;
+        top: 0px;
+        visibility: hidden;
+      }
+      #C{
+        margin-left: 35%;
+        color: white;
+        font-weight: bold;
+
+      }
+      #X{
+        position: relative;
+        top:-12px;
+        left: 90%;
+
+      }
+      #text{
+        position: relative;
+        top: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="covid" id="corona">
+      <span id="C">Info Covid-19</span> <br>
+
+      <img onclick="Close();" id="X" src="X.png" alt="X" width="10px" height="10px">
+
+  <span id="text"> Our workers are well sanitized and abiding by the needed measures </span>
+    </div>
+    <div class="image2">
+    <img id="image" src="drain-aid.png" alt="drain" height="200px" width="200px;">
+    </div>
+    <div class="information">
+      number: 03 372 462 <br><br>
+
+      location: Ghawi street, Furn El Chebback
+      <button onclick="ShowMap();" type="button" name="button">Show Map</button><br><br>
+
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.6829931176144!2d35.521838515210355!3d33.872059780655405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17a7a13bcd6f%3A0xb78dcc89118518c1!2sDRAIN%20AID!5e0!3m2!1sen!2slb!4v1588740301372!5m2!1sen!2slb" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <label for="">email:</label>
+      <a href="mailto:drainaidlebanon@gmail.com?subject=feedback" style="text-decoration:none">drainaidlebanon@gmail.com</a>
+    </div>
+    <div class="form" method="post">
+      <h1>Get Appointment</h1>
+      <form class="" action="form.php" method="post">
+        <label for="">City</label>*<br>
+        <input type="text" name="city" value="" required><br>
+        <label for="">Street Name</label>*<br>
+        <input type="text" name="streetname" value="" required><br>
+        <label for="">Building Name</label>*<br>
+        <input type="text" name="buildingname" value="" required><br>
+        <label for="">Floor Number</label>*<br>
+        <input type="text" name="floornumber" value="" required><br>
+        <label for="">Room Number</label><br>
+        <input type="text" name="roomnumber" value=""><br>
+        <label for="">Contact Number</label>*<br>
+        <input type="text" name="contactnumber" value="" required><br><br>
+        <label for="">Brief description of problem*</label><br><br>
+        <textarea name="description" rows="8" cols="80" style="resize:none" required></textarea><br><br>
+        <input type="submit" name="drainaid" value="submit">
+      </form>
+    </div>
+  </body>
+</html>

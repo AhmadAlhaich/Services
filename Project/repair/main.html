@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sider Menu Bar CSS</title>
+    <link rel="stylesheet" href="styler.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      -webkit-animation-name: fadeIn; /* Fade in the background */
+      -webkit-animation-duration: 0.4s;
+      animation-name: fadeIn;
+      animation-duration: 0.4s
+    }
+
+    /* Modal Content */
+    .modal-content {
+      position: fixed;
+      bottom: 0;
+      background-color: #fefefe;
+      width: 100%;
+      -webkit-animation-name: slideIn;
+      -webkit-animation-duration: 0.4s;
+      animation-name: slideIn;
+      animation-duration: 0.4s
+    }
+
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-header {
+      padding: 2px 16px;
+      background-color: black;
+      color: grey;
+    }
+
+
+
+
+    /* Add Animation */
+    @-webkit-keyframes slideIn {
+      from {bottom: -300px; opacity: 0}
+      to {bottom: 0; opacity: 1}
+    }
+
+    @keyframes slideIn {
+      from {bottom: -300px; opacity: 0}
+      to {bottom: 0; opacity: 1}
+    }
+
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0}
+      to {opacity: 1}
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0}
+      to {opacity: 1}
+    }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+  <img src="phone.jpg" alt="phone" width="25px;" height="25px;" id="myPhone">
+  <span id="num" style="color:white">+961 71 125 53</span>
+
+  <a id="emailLink" href="mailto: ahmadalhaish2@gmail.com">
+  <img src="gmail.jpg" alt="email" width="25px" height="20px" id="myEmail">
+  <span id="email">info@gmail.com</span>
+  </a>
+
+  <a class="link1" target="_blank" href="http://www.facebook.com">
+  <img src="facebook.png" alt="facebook" width="30px" height="30px" id="face">
+  </a>
+  <a class="link2"  target="_blank" href="http://www.instagram.com">
+  <img src="instagram.jpg" alt="instagram" width="30px" height="30px" id="insta">
+  </a>
+  <a class="link3"  target="_blank" href="http://www.twitter.com">
+  <img src="twitter.jpg" alt="twitter" width="30px" height="30px" id="twit">
+  </a>
+</div>
+    <nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+    <header>Repair</header>
+  <ul>
+<li><a href="http://localhost/connect2/"><i class="fas fa-home"></i>Home</a></li>
+<li><a href="http://localhost/Internet/internetservice.html"><i class="fab fa-internet-explorer"></i>internet</a></li>
+<li><a href="http://localhost/Plumbing%202.0/plumbing2.html"><i class="fas fa-wrench"></i>Plumbing</a></li>
+<li><a href="http://localhost/Cleaning/plumbing2.html"><i class="fas fa-chalkboard"></i>Cleaning</a></li>
+<li><a href="contact.html"><i class="far fa-envelope"></i>Contact us</a></li>
+<li><a href="About.html"><i class="far fa-question-circle"></i>About</a></li>
+
+
+</div>
+<div class="cards">
+  <h1>
+Repair companies</h1>
+<div class="services">
+    <div class="content content-1">
+      <div class="">
+        <img src="Abla.jpg" alt="" style="width:100px; height:100px">
+</div>
+<h2>
+Abla Home Appliances</h2>
+<p>
+Activities: Retailers of electrical household appliances & consumer electronics.</p>
+<a href="#" id="myBtn">More info</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Phone number:+961 01 - 863818   Location:AECHA BAKKAR</h2>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+<div class="content content-2">
+      <div class="">
+        <img src="Albahaa.jpg" alt="" style="width:100px; height:50px">
+</div>
+<h2>
+al bahaa group master home</h2>
+<p>
+Activity. Management. Region. Product / Brand. Search. Previous Next. sort by: Name | Distance.</p>
+<a href="#" id="myBtn3">More info</a>
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close3">&times;</span>
+      <h2>Phone number:+961 01 - 303907   Location: DOHA (ARAMOUN)</h2>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+<div class="content content-3">
+      <div class="">
+        <img src="Ace.jpg" alt="" style="width:100px; height:100px">
+</div>
+<h2>
+Acecraft Trading Sal - Home & Beyond</h2>
+<p>
+Activity. Management. Region. Product / Brand. Search. Previous Next. sort by: Name | Distance.</p>
+<a href="#" id="myBtn1">More info</a>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close1">&times;</span>
+      <h2>Phone number: +961 05 - 952162   Location: HAZMIEH</h2>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+    <div class="content content-4">
+              <div class="">
+                <img src="Alwan.jpg" alt="" style="width:150px; height:100px">
+    </div>
+    <h2>
+    alwan home and tools</h2>
+    <p>
+     Activity Recognition in the Home Using Simple and Ubiquitous Sensors.</p>
+     <a href="#" id="myBtn2">More info</a>
+
+     <!-- The Modal -->
+     <div id="myModal2" class="modal">
+
+       <!-- Modal content -->
+       <div class="modal-content">
+         <div class="modal-header">
+           <span class="close2">&times;</span>
+           <h2>Phone number: +961 01 - 375558  Location: Ansar, Nabatiyeh</h2>
+         </div>
+
+       </div>
+
+     </div>
+            </div>
+
+</div>
+</div>
+<section></section>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal3");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn3");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  </body>
+</html>
